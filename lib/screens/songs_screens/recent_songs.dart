@@ -11,7 +11,7 @@ final List<SongModel> allSongs=[];
 
 class RecentSongsScreen extends StatelessWidget {
 
-  const RecentSongsScreen({Key? key,}) : super(key: key);
+  const RecentSongsScreen({super.key,});
 
   @override
   Widget build(BuildContext context) {
